@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'WorkoutScheduleGroup'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.beust:jcommander:1.71"
+}
